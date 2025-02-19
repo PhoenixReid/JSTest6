@@ -38,7 +38,7 @@ describe("Проверка функций приложениЯ", () => {
 
   it("Проверка скачки книги", () => {
     cy.contains("Delete from favorite").click();
-    cy.contains("Dowload Delete from favorite").should("not.be.visible");
+    cy.contains("Delete from favorite").should("not.be.visible");
   });
 
   
